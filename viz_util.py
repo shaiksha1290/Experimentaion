@@ -5,7 +5,7 @@ import numpy as np
 
 #read the file each line and split by "," to get each column
 def read_data():
-    with open(r"../modeling/country_page_traffic.csv", "r+") as d:
+    with open(r"../data/country_page_traffic.csv", "r+") as d:
         flag = 0
         for i in d.readlines():
             if flag == 0:
