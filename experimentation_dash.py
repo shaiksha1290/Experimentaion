@@ -6,6 +6,9 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import numpy as np
 
+import warnings
+warnings.filterwarnings(action="ignore")
+
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 #load the dataset
