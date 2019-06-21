@@ -1,6 +1,7 @@
 import statsmodels.stats.api as sms
 import pandas as pd
 import os
+import numpy as np
 
 
 #read the file each line and split by "," to get each column
