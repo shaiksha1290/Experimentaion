@@ -1,11 +1,11 @@
 import statsmodels.stats.api as sms
 import pandas as pd
-import numpy as np
+import os
 
 
 #read the file each line and split by "," to get each column
 def read_data():
-    with open(r"../data/country_page_traffic.csv", "r+") as d:
+    with open(os.path.dirname(__file__) +"\\data\\country_page_traffic.csv", "r+") as d:
         flag = 0
         for i in d.readlines():
             if flag == 0:
