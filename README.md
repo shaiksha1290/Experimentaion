@@ -2,7 +2,7 @@
 The goal of this exercise is to helps marketer make an informed decision while running experimentations. Company has multiple websites across the world, localized for a specific country. All websites have homepage, consumer and business homepage and checkout page. Sample size of each experiment differs with the page/country combinations as the conversion rate changes for these combinations. 
 
 ## Getting Started
-Copy the python files along with the csv file to local machine
+Download the project and run experimentation_dash.py
 
 ### Prerequisites
 python packages required: pandas,numpy,statsmodels,dash
